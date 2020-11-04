@@ -1,4 +1,4 @@
-module grafana-json-streaming-datasource
+module github.com/artofimagination/grafana-json-streaming-datasource
 
 go 1.15
 
