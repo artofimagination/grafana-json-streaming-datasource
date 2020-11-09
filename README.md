@@ -27,9 +27,12 @@ Examples used:
 - run `yarn dev`
 
 # Known issues
-This example is meant to be a POC and it is in a very early stage yet. 
+This example is meant to be a POC and it is in a very early stage yet.
+
 [Only handles panels in a single dashboard] (https://github.com/artofimagination/grafana-json-streaming-datasource/issues/1)
+
 [Data display gets slow after a while] (https://github.com/artofimagination/grafana-json-streaming-datasource/issues/2)
+
 The panel visualization is cleared every time you update the dashboard. If you have access to historical data, you can add, or backfill, it to the data frame before the first call to subscriber.next().
 
 [There are building issues with the datasource (the fail does not prevent the usage of the datasource)](https://github.com/artofimagination/grafana-json-streaming-datasource/issues/3)
